@@ -1,0 +1,121 @@
+
+
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	#top, #bottom, #left, #right { display: none; }
+}
+.kiwi{text-align:center;margin-top: 40px;}
+
+body {padding: 50px;
+    margin:20px; position: relative;
+     
+}
+
+.line-separator{
+height:1px;
+    background:#717171;}
+
+.intro{text-align: left;font-family: fantasy; font-size: 300%; background-color:white; color: black; margin: 50px;}
+
+.miniintro{margin: 40px;margin-left: 80px;}
+
+.one {text-decoration: none; color:black; background-image:url(ppimg/cilantro.jpg); padding: 5px;font-family: 'Carter one',cursive;margin: 70px; margin-left: 120px;margin-right: 520px;}
+
+.list{margin: 10px;}
+
+.minione a:hover{color:orange;}
+.minione a{color:black;font-size: 160%; font-family: 'Caveat', cursive;}
+.minione{margin-left: 180px; font-family: 'Caveat', cursive; font-size: 150%; }
+
+.two{font-family:'ubuntu', sans-serif;margin-left: 150px; margin-top: 20px;}
+.two a{color:darkturquoise;}
+.two a:hover{color:orangered;}
+.three{background-image: url(ppimg/cevi.jpg); padding: 5px; text-align: right;color: black;  margin-top: 20px; font-family: 'Carter one', cursive; margin:70px; margin-right: 120px; background-repeat: no-repeat; margin-left: 620px;}
+
+.fast{margin: 10px;}
+
+.mini3 a:hover{color:brown;}
+.mini3 a{color:black; font-size: 180%; margin-right: 30px; font-family: 'Caveat', cursive;}
+.mini3{text-align: right; margin-right: 200px;font-family: 'Caveat' , cursive; font-size: 150%}
+
+.four{text-align:right;font-family:'ubuntu', sans-serif; margin-right: 220px;}
+
+.footer{display:flex;justify-content: space-around; padding: 20px; margin: 20px; color:gray;}
+
+.mini a{text-decoration:none; color:black; font-family: 'carter one',cursive;}
+.mini a:hover{color: darkturquoise;}
+
+.sweet{text-align: center; margin-top: 80px; background: rgba(252,236,252,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(252,236,252,1)), color-stop(50%, rgba(251,166,225,1)), color-stop(51%, rgba(253,137,215,1)), color-stop(100%, rgba(255,124,216,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+background: radial-gradient(ellipse at center, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8', GradientType=1 );border: 1px dotted black; text-decoration: underline;margin: 70px;  }
+
+.drinks{text-decoration:underline;text-align: center;background: rgba(252,234,187,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(252,234,187,1)), color-stop(50%, rgba(252,205,77,1)), color-stop(51%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: radial-gradient(ellipse at center, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1);border: 1px dotted black;margin: 70px;}
+
+.cake img{width:420px; height: 320px; border: black solid; border-width: 10px;padding: 10px;}
+.te img{width:420px; height: 320px; border: black solid; border-width: 10px;padding: 10px;}
+.snack img{width:420px; height: 320px; border: black solid; border-width: 10px;padding: 10px;}
+
+.snacks{text-align: center; text-decoration: underline;background: rgba(203,96,179,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(203,96,179,1)), color-stop(50%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: radial-gradient(ellipse at center, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );border:1px dotted black;margin: 70px;}
+
+.te{text-align: center;}
+.snack{text-align: center;}
+.cake{text-align: center;}
+.min a:hover{color:blue;}
+.min a{color: darkturquoise;}
+.contact{text-align: center; color:darkturquoise;margin: 80px;}
+.supermarkets{text-align: center;color:red;}
+.me img{float:left;margin-left: 180px;}
+.inspire{text-align: center;margin-top: 80px; font-family: 'Indie flower', cursive;}
+.description{margin: 80px;text-align: justify; }
+.chefs{text-align: center;font-family: monospace; margin: 30px;}
+.ingredients{margin: 40px; font-family: 'Indie flower', cursive;text-align: center;color: darkturquoise;padding: 10px;}
+.li{margin: 40px; border: black dotted 4px; text-align: justify; margin-left: 200px; margin-right: 200px;}
+.gettherecipe a{color:red;}
+.gettherecipe a:hover{color:blue;}
+.important{color:darkmagenta;}
+.bom{text-align: center; background: linear-gradient(pink, white);}
+.peruingredients{text-align: justify; border-left: red solid 10px; border-right: red solid 10px; padding-left: 40px; padding-right: 40px; font-family:'ubuntu', serif;}
+.color{background: linear-gradient(coral, white);}
+.pancakes img{width:380px; height:350px;}
+.thanks{font-family: 'carter one', cursive; text-align: center; color:orangered;}
+.marg{padding: 40px;}
+.flag {text-align: center; margin: 40px;padding-bottom: 20px; padding-top: 20px;}
+spam{color:red;}
+.videos{text-align: center; color:red;}
+.kids img{width:400px; height:400px; }
+.kids{padding: 40px;}
+.oa{padding: 20px;}
+.contact a{color:black;}
+.contact a:hover{color:blue;}
+.table{margin: 60px; }
+.bom a{color:black;}
+.bom a:hover{color:blue;}
+.thanks img{;width:300px; height:200px;}
+.space{margin: 120px 0px;}
+.ce img{width: 400px; height:400px;}

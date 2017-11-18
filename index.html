@@ -1,0 +1,174 @@
+<!Doctype html>
+<html>
+   
+    <head>
+       <title>H&H</title>
+        <!---Health and Happiness--->
+         <link rel="stylesheet" text="text/css" href="style.css" />       <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet" />             
+         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+        
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+    </head>
+    
+    <body>
+       
+        <div class="intro">
+            <div class=miniintro> <p>HEALTHY FAST FOOD <img class="utensils" src="https://ob8qxdtnu3-flywheel.netdna-ssl.com/wp-content/uploads/2017/06/Asset-18.png"></p></div>  
+        </div> 
+       
+        <div class="line-separator"></div>
+        <div class="space">
+        <div class="w3-container"></div>
+
+<div class="w3-content w3-display-container" style="max-width:500px">
+  <img class="mySlides" src="ppimg/kiwi.JPG" style="width:500px; height:400px;">
+  <img class="mySlides" src="ppimg/cev.jpg" style="width:500px; height:400px;">
+  <img class="mySlides" src="ppimg/brocoli.JPG" style="width:500px; height:400px;">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+        
+    
+        
+        <div class="footer">
+            <div class="mini"> <h3><a href="about.html">About</a></h3></div>
+        <div class="mini"> <h3><a href="kids.html">Kids</a></h3></div>
+             <div class="mini"> <h3> <a href="peruvian.html">Peruvian Corner</a></h3></div>
+            
+            
+        </div>
+        
+        
+        <div class="one">
+            <div class="list"><h1>Shopping list</h1> </div>
+             
+        </div>
+      
+        <div class="two">
+        <ol>
+        <li>Use your smart phone, record your list or use phone apps</li>  
+        <li> Buy products that are <em><a href="https://snaped.fns.usda.gov/seasonal-produce-guide"> In Season</a></em></li>    
+        <li>Specify quantity wherever applicable. Quantity is an important part of any shopping list. </li> 
+        <li>Keep your list balanced.</li> 
+        <li>Emphasize healthy choices.</li> 
+        <li>When planning your grocery list, consult the guidelines of <em><a href="https://www.choosemyplate.gov/">My Plate.</a></em></li> 
+        <li>Look up coupons and specials.</li> 
+            <li>Important tips <a href="tips.html"> HERE</a></li>
+        </ol>
+        </div>
+        
+         <div class="minione"><h3><a href="list.html">what to buy</a></h3></div>
+        
+        <div class="three">
+            <div class="fast"><h1>Delicious and Fast</h1> </div>
+            
+        </div>
+        <div class="four">
+           <p> "One can not think well, love well, sleep well, if one has not dined well." – Virginia Woolf</p>
+           <p>"It's all about new techniques -- simplifying old techniques, and consolidating steps.<br /> Making things go faster, but not worse." _ Martha Stewart </p> 
+            <p> "We all eat, and it would be a sad waste of opportunity to eat badly." – Anna Thomas</p> 
+            <p>"A party without cake is just a meeting." – Julia Child</p> 
+            <p>"Eating out doesn't have to be a formula. Eating out is about having fun.<br /> I get really frustrated when it's badly done." _ Gordon Ramsay</p> 
+        
+        </div>
+        <div class="mini3"> <h3> <a href="recipes.html">recipes</a></h3></div>
+        
+        <div class="sweet">
+        <h2>HEALTHY DESSERTS</h2>
+        </div>
+        
+        <div class="cake">
+        <img src="ppimg/s1.JPG" />
+            <h3> homemade strawberry ice cream with beet cake<a href="beet.html"><br />Get the recipe</a></h3>
+                
+        </div>
+           
+        <div class="drinks">
+        <h2>WHAT TO DRINK</h2>
+        </div>
+        
+        <div class="te">
+        <img src="ppimg/d2.JPG" />
+            <h3>mango smoothie with greek yogurt<a href="mango.html"><br /> Get the recipe </a></h3>
+            
+        </div>
+        
+       
+        <div class="snacks">
+       <a href=""><h2>GRAB AND GO</h2></a> 
+        </div>
+        
+        <div class="snack">
+            <img src="ppimg/oatmeal%20muffin.jpg" />
+        <h3>Banana Oatmeal muffin with chocolate chip <a href="bomuffin.html"><br />Get the recipe</a></h3></div>
+        
+        <div class="line-separator"></div>
+
+        <div class="contact">
+    
+        <h4>CONTACT ME</h4>
+        
+            <p>JackeineT</p>
+        <p>healthyfastfood3@gmail.com</p>
+            <a href ="mailto:healthyfastfood3@gmail.com">Send email</a>
+         </div>
+        
+        <div class="footer">
+        <h3>SOURCES:</h3>
+       <div class="min"> <a href="https://www.fns.usda.gov/"><h3>food and nutrition service</h3></a></div>
+        <div class="min"> <a href="https://www.fruitsandveggiesmorematters.org/7-healthy-snack-ideas-for-home-work-and-on-the-go/"><h3>fruit and veggies more matters</h3></a></div>
+          <div class="min"><a href="https://www.nal.usda.gov/fnic"><h3>food and nutrition information</h3></a></div>
+           <div class="min">  <a href="https://www.nutrition.gov/"><h3>Nutrion.gov</h3></a></div>
+           <div class="min">  <a href="https://fns-prod.azureedge.net/sites/default/files/eatsmartminiposter.pdf"><h3>Eat smart for kids</h3></a></div>
+           <div class="min">  <a href="https://www.educateiowa.gov/sites/files/ed/documents/CACFP%20New%20Meal%20Pattern%20Menu2.pdf"><h3>Meal Pattern Menu</h3></a></div>
+             
+        
+        </div>
+    </body>
+    
+    
+    
+
+</html>
