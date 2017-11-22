@@ -1,5 +1,5 @@
 .nav li{ display: inline-block;
-    
+    z-index: 2;
         align-content: flex-end;
         padding-right: 100px;
         padding-left: 120px;
