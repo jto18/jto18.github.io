@@ -1,3 +1,16 @@
+.nav li{ display: inline-block;
+    
+        align-content: flex-end;
+        padding-right: 100px;
+        padding-left: 120px;
+        padding-bottom: 80px;
+        height: 10px;
+        text-align: center;} 
+
+.nav img{
+    height:40px; 
+    width:40px;}
+    
 .things{font-family: 'slabo 27px', serif; background-color: green;text-align: center;font-size: 140%;padding: 20px;text-decoration: underline; color:white; margin: 20px;
 }
 .intro{text-align: center;}
