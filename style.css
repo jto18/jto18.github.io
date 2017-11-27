@@ -19,7 +19,7 @@ body {padding: 30px;
     background:#717171;}
 .intro{text-align: left;font-size: 60px; background-color:white; color: black; margin: 50px; font-family: fantasy;}
 .miniintro{margin: 20px;margin-left: 20px;}
-.one {text-decoration: none; color:black; background-image:url(ppimg/salmon.jpg); margin: 40px; margin-left: 20px;margin-right: 20px;}
+.one {text-decoration: none; color:black; background-image:url(salmon.jpg); margin: 40px; margin-left: 20px;margin-right: 20px;}
 .list{margin: 20px; font-size: 70px; font-family:  cursive;}
 .minione a:hover{color:orange;}
 .minione a{color:black;font-size: 50px; font-family: 'Caveat', cursive;}
@@ -27,7 +27,7 @@ body {padding: 30px;
 .two{font-family:'ubuntu', sans-serif;margin-left: 10px; margin-top: 20px;font-size: 20px;}
 .two a{color:orangered;}
 .two a:hover{color:darkturquoise;}
-.three{background-image: url(ppimg/cevi.jpg);color: black; margin:40px; margin-right: 20px;  margin-left: 20px;}
+.three{background-image: url(cevi.jpg);color: black; margin:40px; margin-right: 20px;  margin-left: 20px;}
 .fast{margin: 20px;font-size: 60px; font-family:  cursive;}
 .mini3 a:hover{color:orange;}
 .mini3 a{color:black; font-size: 55px; font-family: 'Caveat', cursive;}
